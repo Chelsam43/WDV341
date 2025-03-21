@@ -1,5 +1,5 @@
 <?php
-require_once 'dbConnect.php';
+require_once 'dbconnect.php';
 
 $eventID =isset($_GET['event_id']) ? (int)$_GET['event_id']:1; //sets default to first entry
 
